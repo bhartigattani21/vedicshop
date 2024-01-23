@@ -1,0 +1,89 @@
+/* homepage */
+.homepage-section{
+    color: var(--os-text) ;
+    background : var(--os-background-1) ;
+    display : flex ;
+    flex-direction : column;
+    justify-content : center ;
+    align-items : center ;
+    gap : 1rem ;
+    padding : 4rem 0 ;
+}
+.homepage-section h3{
+    margin : 0 ;
+}
+.section-list{
+    display : grid ;
+    width : 98%;
+    grid-template-columns : 1fr 1fr 1fr 1fr;
+    gap : 5px ;
+}
+.article-item{
+    display : flex ;
+    padding : 1rem ;
+    flex-direction : column;
+    align-items : center ;
+    cursor : pointer ;
+    border-radius : .75rem ;
+    background-color : var(--os-background-5) ;
+}
+.article-item:hover{
+    background-color : var(--os-background-2);
+    border : 1px solid black ;
+}
+.section-list article img{
+    height : 10rem;
+    width : 10rem;
+    border-radius : 50% ;
+    margin-bottom : 5px ;
+}
+
+/* Product Listing Page  */
+.product-container{
+    display : flex ;
+    flex-wrap: wrap;
+    width : 78%;
+    padding : 1rem ;
+    justify-content: space-around;
+    background-color : var(--os-background-1);
+}
+.product-listing-component{
+    display : flex ;
+    flex-direction: row;
+    background-color: var(--os-background-1);
+    color : var(--os-text);
+}
+
+/* Cart Page */
+.cart-product-container{
+    display : flex ;
+    flex-direction :column;
+    width: 75%;
+    color: var(--os-text);
+    align-items : center ;
+}
+
+.cart-summary{
+    color: var(--os-text);
+    background-color : var(--os-background-4);
+    width : 25%;
+    height :  750px;
+    margin-top : 1rem ;
+    padding-left : 1rem ;
+    display : flex ;
+    flex-direction: column;
+}
+.cart-summary > *{
+    margin : 1rem ;
+}
+.btn-chkout{
+    color : var(--os-white);
+
+}
+.snackbar{
+    display : flex !important;
+    color : white ;
+    display : flex ;
+    align-items : center ;
+    justify-content : space-around;
+}

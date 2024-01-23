@@ -1,0 +1,47 @@
+body{
+  position : relative ;
+}
+.App .toggle-div{
+  z-index : 1;
+  position : fixed;
+  bottom : 1rem ;
+  right : 1rem ;
+}
+.toggle-switch {
+  display: flex;
+  align-items: center;
+  border: 1px solid gray;
+  height: 40px;
+  width: 80px;
+  border-radius: 50px;
+  cursor: pointer;
+  position: relative;
+}
+.slider-container{
+  height : 40px;
+  width : 80px ;
+  background-color : gray ;
+  position: absolute ;
+  top: 0 ;
+  left : 0 ;
+  border-radius : 50px ;
+}
+.chk-toggle{
+  opacity : 0;
+}
+.slider{
+  background-color : white;
+  height : 40px;
+  width : 40px ;
+  position : absolute;
+  top : 0;
+  left : 0;
+  border-radius : 50%;
+  transition: .3s;
+}
+.chk-toggle:checked + .slider-container .slider{
+  transform : translateX(40px); 
+}
+.chk-toggle:checked + .slider-container{
+  background-color : black;
+}

@@ -1,0 +1,216 @@
+.navigation{
+    background : var(--os-background-1);
+    color : var(--os-text);
+    flex-wrap : wrap;
+    border-bottom : 1px solid black ;
+}
+.nav-logo{
+    color: var(--os-text);
+}
+.nav-right .fas{
+    color : var(--os-background-2) !important;
+    -webkit-text-stroke:1px var(--os-text);
+}
+.icon-badge{
+    font-weight : 100 !important ;
+}
+@media screen and (max-width: 867px){
+    .navigation .nav-right {
+        display: flex;
+    }
+}
+.btn-shop{
+    background : var(--os-primary-6) !important ;
+}
+
+/* Hero Section */
+.hero-section{
+font-family : monospace;
+position : relative;
+display : grid;
+}
+.hero-content{
+    display : inline-flex;
+    justify-content : flex-end;
+    align-items : center;
+    flex-direction : column;
+    width : 100%;
+    height : 100%;
+    padding : 1rem ;
+    color : white ;
+    font-size: 0.8rem ;
+    box-sizing :inherit;
+}
+.hero-content,
+.hero-background{
+    grid-column : 1/2;
+    grid-row : 1/2;
+}
+.btn-explore{
+    padding : 1.5rem 2rem ;
+    color : var(--os-white);
+    border : none ;
+    background : var(--os-secondary-5) !important;
+}
+/* footer */
+.os-footer{
+    color: var(--os-text);
+    border : 1px solid black ;
+    background-color : var(--os-background-1);
+    display : flex ;
+    flex-direction : column;
+    align-items : center ;
+}
+.footer-social-icons li{
+    margin : 1.75rem;
+}
+.footer-social-icons svg{
+    font-size : 2rem ;
+    color : var(--os-text);
+}
+.footer-social-icons svg:hover{
+    color : var(--os-background-8);
+}
+.os-footer-bottom{
+    justify-content : space-around;
+}
+.os-footer-bottom section{
+    margin-bottom : 1rem ;
+}
+/* Single Product  */
+.card-description p {
+    color : var(--os-text);
+    margin : 0.4rem ;
+}
+.card-vertical{
+    background-color : var(--os-background-7);
+    width : 320px ;
+    border : 1px solid black ;
+}
+.card-btn-panel .fa-heart{
+    color : var(--os-white);
+    -webkit-text-stroke : 1px var(--os-text);
+    cursor : pointer
+}
+.card-btn-panel .fa-heart:hover{
+    color : red ;
+}
+.card-btn-panel .fa-heart-filled{
+    color : red ;
+}
+.btn-atc i{
+    background-color : var(--os-secondary-4) !important ;
+    color : var(--os-text);
+    font-size : 1.1rem ;
+    margin-right : 0.6rem;
+}
+.btn-atc{
+    background-color : var(--os-secondary-4) !important;
+    color : var(--os-text);
+}
+.btn-rmc{
+    background-color: rgb(191, 47, 47) !important ;
+}
+.btn-atc:hover{
+    background : var(--os-secondary-5) !important;
+}
+.card-description .description-1{
+    display : flex ;
+    align-items : center ;
+    flex-direction : column;
+}
+
+/* SingleCartItem */
+.card-horizontal{
+    width : 50% ;
+    margin : 2rem ;
+    border: 1px solid black ;
+    background-color : var(--os-background-5);
+}
+.card-horizontal .btn-rmc{
+    margin-left : 0.6rem;
+}
+.img-hrz{
+    width : 15rem ;
+    height : 15rem ;
+}
+select{
+    width : 3.8rem ;
+    height : 1.75rem ;
+    font-size : 1.1rem ;
+}
+
+/* Filter section  */
+.filters{
+    padding-left : 1rem ;
+    width : 20%;
+    display : flex ;
+    flex-direction: column;
+}
+.filters > *{
+    margin : 1rem ;
+}
+.search-filter{
+    height : 1.75rem ;
+    padding : 1.2rem ;
+    background-color : whitesmoke;
+    border-radius : 5px ;
+    font-size : 1.3rem ;
+}
+/* wishlist */
+.card-wishlist{
+    width : 40% ;
+}
+.card-wishlist label {
+    color : var(--os-white);
+}
+.card-wishlist .fa-heart{
+    margin : 1rem ;
+}
+
+/* Profile component */
+.profile-component{
+    display : flex ;
+    flex-direction : column ;
+    align-items : center;
+    justify-content : center ;
+    color : var(--os-text);
+    background-color : var(--os-background-1);
+}
+.profile-container{
+    display : flex ;
+    border-top : 1px solid gray ;
+}
+.profile-links{
+    display : flex ;
+    flex-direction : column;
+    align-items : flex-start;
+    padding : 2rem;
+    border-right : 1px solid gray
+}
+hr{
+    width : 100% ;
+}
+.profile-detail-link{
+    font-size : 1.3rem ;
+    padding : 0.75rem ;
+    margin : 1.25rem ;
+    border-radius : 0.5rem ;
+    cursor: pointer;
+}
+.profile-detail-link:hover{
+    background-color : var(--os-secondary-5);
+    color : white ;
+}
+.profile-details{
+    padding : 2rem ;
+}
+.profile-row{
+    width : 100% ;
+    display : flex ;
+    align-items : center;
+    padding : 1rem 0 ;
+}
+.row-heading{
+    width : 12rem;
+}
