@@ -3,7 +3,7 @@ import React from 'react';
 const Footer = () => {
     return (
         <footer className="os-footer">
-            <h4 className="footer-creator">Created by Al Hera Ahmad</h4>
+            // <h4 className="footer-creator">Created by Al Hera </h4>
             <ul className="footer-social-icons flex-row list-style-none">
                 <li>
                     <a href="https://github.com/bhartigattani21">
